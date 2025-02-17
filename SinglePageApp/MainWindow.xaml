@@ -1,0 +1,31 @@
+﻿<Window x:Class="SinglePageApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SinglePageApp"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Content="MainFrame" Click="MainFrame_Click"/>
+            <Button Grid.Column="1" Content="SecondaryFrame" Click="SecondFrame_Click"/>
+            <Button Grid.Column="2" Content="Show window" Click="ShowWindow_Click"/>
+            <Button Grid.Column="3" Content="Show dialog" Click="ShowDialog_Click"/>
+        </Grid>
+        <StackPanel Orientation="Horizontal">
+        </StackPanel>
+        <Frame x:Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden" />
+    </Grid>
+</Window>

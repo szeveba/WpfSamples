@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics", "Basics\Basics.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglePageApp", "SinglePageApp\SinglePageApp.csproj", "{94FEE2CE-5328-406E-B7FE-238DD8B00AC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMApp", "MVVMApp\MVVMApp.csproj", "{6FD12A5B-99E8-44B2-B770-9319FE454647}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{94FEE2CE-5328-406E-B7FE-238DD8B00AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94FEE2CE-5328-406E-B7FE-238DD8B00AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94FEE2CE-5328-406E-B7FE-238DD8B00AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD12A5B-99E8-44B2-B770-9319FE454647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD12A5B-99E8-44B2-B770-9319FE454647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD12A5B-99E8-44B2-B770-9319FE454647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD12A5B-99E8-44B2-B770-9319FE454647}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
